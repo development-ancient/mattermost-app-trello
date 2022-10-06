@@ -1,18 +1,18 @@
 # Mattermost/Trello Integration
 
 * [Feature summary](#feature-summary)
-* [Setting up](#setting-up)
+* [Setting up](#set-up)
   * [Installation](#installation)
   * [Configuration](#configuration)
 * [Admin guide](#admin-guide)
   * [Slash commands](#slash-commands)
 * [End user guide](#end-user-guide)
-  * [Getting started](#getting-started)
-  * [Using /trello commands](#using-trello-commands)
+  * [Getting started](#get-started)
+  * [Using /trello commands](#use-trello-commands)
 * [Development](#development)
   * [Manual installation](#manual-installation)
-  * [Running the local development environment](#running-the-local-development-environment)
-  * [Running the local development environment with docker](#running-the-local-development-environment-with-docker)
+  * [Running the local development environment](#run-the-local-development-environment)
+  * [Running the local development environment with docker](#run-the-local-development-environment-with-docker)
 
 This application allows you to integrate Trello with your Mattermost instance. letting you know when a new card is created, as well as getting notified about card updates. Also, allows the user to create new cards without moving from the Mattermost window.
 
@@ -22,7 +22,7 @@ This application allows you to integrate Trello with your Mattermost instance. l
 
 **Manage card creation on Mattermost:** Create new cards from Mattermost (via modal or command), assigning the board and the list to which you want to add the card.
 
-# Setting up
+# Set up
 
 ## Installation
 
