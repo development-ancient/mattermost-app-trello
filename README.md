@@ -63,7 +63,7 @@ The ``TRELLO_API_URL`` should be replaced with the URL where the Trello API inst
 
 # Development
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/development-ancient/mattermost-app-trello)
 
 ## Manual installation
 
