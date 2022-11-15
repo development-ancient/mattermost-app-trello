@@ -17,8 +17,8 @@ function getPort(): number {
 
 export function getHTTPPath(): string {
     if (!`${config.APP.HOST}`.includes('https')){
-        return `${config.APP.HOST}:${getPort()}`;
+        return `${config.APP.HOST}`;
     }
     return config.APP.HOST;
-    
+
 }
