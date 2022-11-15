@@ -2,7 +2,6 @@ import express, { Express } from 'express';
 import bodyParser from 'body-parser';
 import config from './config';
 import apiRoutes from './api';
-import {getHTTPPath} from './utils';
 import morgan from 'morgan';
 
 const serverless = require('serverless-http');
