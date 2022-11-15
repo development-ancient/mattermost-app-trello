@@ -37,7 +37,7 @@ The ``TRELLO_API_URL`` should be replaced with the URL where the Trello API inst
 1. First, install the app in your current Mattermost instance (refer to [Installation](#installation)) so that the ``/trello`` command is available.
 2. Next, configure your Trello workspace. As a super admin user, run the ``/trello configure`` command.
 3. In the confirmation modal, enter your workspace, API key and API token which you can find at https://trello.com/app-key.
-4. When you've completed the configuration, the ``/trello account`` command will be enabled. 
+4. When you've completed the configuration, the ``/trello account`` command will be enabled.
 5. Next, for access to all the commands, log in to a Trello account using the command ``/trello account login``.
 6. Follow the link provided and eter the generated token where required.
 
@@ -62,6 +62,8 @@ The ``TRELLO_API_URL`` should be replaced with the URL where the Trello API inst
 - ``/trello subscription remove``: Will allow you to remove a subscription. No more notifications from that board will be received.
 
 # Development
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer)
 
 ## Manual installation
 
