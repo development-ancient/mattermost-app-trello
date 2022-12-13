@@ -18,10 +18,9 @@ app.post('/ping', (req, res) => { res.json({}) })
 // App released via HTTP and docker
 if (config.APP.HOST) {
     const port: number = config.APP.PORT;
-    app.listen(port, () => console.log('Listening on ' + port));
+    app.listen(port, () => console.log(`${config.APP.HOST}/manifest.json`));
 }
 // App released via AWS Lambda
 else {
     module.exports.handler = serverless(app);
 }
-
